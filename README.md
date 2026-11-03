@@ -1,6 +1,6 @@
 # Código Público Brasil: site da organização
 
-Página inicial do projeto [Código Público Brasil](https://github.com/codigo-publico-brasil), publicada com GitHub Pages em https://codigopublicobrasil.com.br (o endereço `codigo-publico-brasil.github.io` redireciona para ele).
+Página inicial do projeto [Código Público Brasil](https://github.com/codigo-publico-brasil), publicada com Cloudflare Pages em https://codigopublicobrasil.com.br.
 
 A página apresenta a missão, o caminho do dado, os projetos (com o repositório e a aplicação de cada um), os princípios, as licenças e como participar.
 
@@ -24,13 +24,9 @@ Busca, redes sociais e agentes de IA
   og.png                imagem de compartilhamento (1200 × 630)
   apple-touch-icon.png  ícone para a tela inicial do celular
   sitemap.xml, robots.txt, llms.txt
-
-Publicação
-  CNAME                 domínio codigopublicobrasil.com.br (não apagar)
-  .nojekyll             desliga o Jekyll do GitHub Pages
 ```
 
-`tokens.css`, `theme.js`, `og.png` e `apple-touch-icon.png` ficam na raiz de propósito: as aplicações e as redes sociais usam esses endereços, e o GitHub Pages não faz redirecionamento.
+`tokens.css`, `theme.js`, `og.png` e `apple-touch-icon.png` ficam na raiz de propósito: as aplicações e as redes sociais usam esses endereços.
 
 As fontes (Fraunces, Inter e JetBrains Mono) vêm do Google Fonts.
 
@@ -46,7 +42,7 @@ Abra http://localhost:4173.
 
 ## Como publicar
 
-Todo push na branch `main` publica o site sozinho, pelo GitHub Pages. Não há etapa de build.
+Todo push na branch `main` publica o site sozinho, pelo Cloudflare Pages. Não há etapa de build.
 
 ## Conteúdo
 
@@ -54,4 +50,4 @@ Os textos seguem as linhas vermelhas do projeto: sem ranking, sem recomendação
 
 ## Pendências
 
-Melhorias e decisões abertas ficam nas [issues deste repositório](https://github.com/codigo-publico-brasil/codigo-publico-brasil.github.io/issues).
+Melhorias e decisões abertas ficam nas [issues deste repositório](https://github.com/codigo-publico-brasil/codigopublicobrasil.com.br/issues).

@@ -1,6 +1,6 @@
 **Quanto menos código e menos estrutura, melhor; seja sucinto, mas resolva o problema da melhor forma. Proponha antes de executar.**
 
-Este repositório é o site da organização Código Público Brasil: uma página única em HTML e CSS, publicada pelo GitHub Pages. As aplicações (`nocargo`, `quem-decidiu`) e a plataforma de dados (`dado-publico-brasil`) vivem em outros repositórios e em outros servidores; aqui só há a home.
+Este repositório é o site da organização Código Público Brasil: uma página única em HTML e CSS, publicada pelo Cloudflare Pages. As aplicações (`nocargo`, `quem-decidiu`) e a plataforma de dados (`dado-publico-brasil`) vivem em outros repositórios e em outros servidores; aqui só há a home.
 
 ## Regras
 
@@ -13,9 +13,9 @@ Este repositório é o site da organização Código Público Brasil: uma págin
 
 ## Publicar
 
-Só publique (push, criar ou alterar repositório, mexer no Pages ou no domínio) quando o usuário pedir. O site é público e um push na `main` o atualiza.
+Só publique (push, criar ou alterar repositório, mexer no Cloudflare Pages ou no domínio) quando o usuário pedir. O site é público e um push na `main` o atualiza.
 
-O domínio `codigopublicobrasil.com.br` está ativo (arquivo `CNAME` na raiz, DNS no Registro.br, HTTPS obrigatório). Não apague o `CNAME`: sem ele o domínio sai do Pages.
+O domínio `codigopublicobrasil.com.br` está ativo no Cloudflare Pages (DNS na Cloudflare, domínio registrado no Registro.br, HTTPS obrigatório).
 
 Pendências e decisões abertas são **issues deste repositório**, não arquivos `.md`.
 
