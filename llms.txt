@@ -11,7 +11,7 @@ Idioma do conteúdo: português do Brasil. Todos os projetos estão em construç
 
 ## Projetos
 
-- [Dado Público Brasil](https://datalake.codigopublicobrasil.com.br/) ([código](https://github.com/codigo-publico-brasil/dado-publico-brasil)), já no ar: a base de dados do projeto. Reúne dados abertos do governo, organiza e entrega prontos para uso, sempre com fonte e data de captura. Hoje cobre Câmara dos Deputados, Senado Federal e candidaturas no TSE. APIs abertas de acesso estão previstas.
+- [Dado Público Brasil](https://datalake.codigopublicobrasil.com.br/) ([código](https://github.com/codigo-publico-brasil/dado-publico-brasil)), já no ar: a base de dados do projeto. Reúne dados abertos do governo, organiza e entrega prontos para uso, sempre com fonte e data de captura. Hoje cobre Câmara dos Deputados, Senado Federal e candidaturas no TSE.
 - [No Cargo](https://nocargo.codigopublicobrasil.com.br) ([código](https://github.com/codigo-publico-brasil/no-cargo)), já no ar: mostra quem ocupa cada cargo de poder no Brasil, nos três poderes e em cada esfera, com a composição por partido e a ficha de cada eleito.
 - [Quem Decidiu](https://github.com/codigo-publico-brasil/quem-decidiu), em construção: mostra quem propôs, quem votou e quem aprovou cada decisão pública, com a fonte oficial de cada voto.
 
@@ -21,7 +21,7 @@ Idioma do conteúdo: português do Brasil. Todos os projetos estão em construç
 2. Cópia guardada: o arquivo é salvo exatamente como veio, com a data de captura. Nada é alterado.
 3. Organização: os dados são padronizados para poderem ser comparados, sem mudar o que a fonte diz.
 4. Verificação: testes automáticos apontam falhas e lacunas. O que falta fica visível.
-5. Publicação: os dados prontos alimentam sites e, em breve, APIs abertas, sempre com link para a origem.
+5. Publicação: os dados prontos alimentam sites, sempre com link para a origem.
 
 ## Princípios
 
