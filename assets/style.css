@@ -41,8 +41,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.12; let
 }
 .hero .wrap { position: relative; display: grid; gap: 48px; grid-template-columns: 1.15fr 0.85fr; align-items: center; }
 .hero .eyebrow { color: var(--yellow); }
-.hero h1 { font-size: clamp(38px, 6vw, 68px); margin: 18px 0 20px; }
-.hero h1 em { font-style: italic; color: var(--yellow); }
+.hero h1 { font-size: clamp(30px, 4.2vw, 48px); margin: 18px 0 20px; }
+.hero h1 em { display: block; white-space: nowrap; font-style: italic; color: var(--yellow); }
 .hero p.lead { font-size: 18px; color: var(--hero-muted); max-width: 52ch; margin: 0 0 28px; }
 .cta { display: flex; flex-wrap: wrap; gap: 12px; }
 .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 999px; font-weight: 600; font-size: 15px; text-decoration: none; border: 1px solid transparent; }
@@ -129,6 +129,7 @@ section { padding: 84px 0; }
 .lic span { font-family: var(--mono); font-size: 13px; border: 1px solid var(--line); padding: 5px 10px; border-radius: 6px; }
 .panel.dark { background: var(--hero-bg); color: var(--hero-ink); border-color: var(--hero-bg); }
 .panel.dark p { color: var(--hero-muted); }
+.panel.dark p a { color: var(--yellow); }
 
 footer { background: var(--hero-bg); color: var(--hero-muted); padding: 36px 0; font-size: 14px; }
 footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
@@ -139,6 +140,7 @@ footer a { color: var(--hero-ink); }
 
 @media (max-width: 900px) {
   .hero .wrap, .duo { grid-template-columns: 1fr; }
+  .hero h1 { font-size: clamp(20px, 6.4vw, 64px); }
   .cards, .pgrid { grid-template-columns: 1fr; }
   .trilha { grid-template-columns: 1fr; }
   .trilha li { border-right: 0; border-bottom: 1px solid var(--line); }

@@ -21,12 +21,12 @@ Identidade
   identidade/logos/     símbolos em SVG (organização e projetos)
 
 Busca, redes sociais e agentes de IA
-  og.png                imagem de compartilhamento (1200 × 630)
-  apple-touch-icon.png  ícone para a tela inicial do celular
-  sitemap.xml, robots.txt, llms.txt
+  assets/img/compartilhamento-1200x630.png  imagem de compartilhamento nas redes
+  assets/img/icone-celular.png              ícone para a tela inicial do celular
+  sitemap.xml, robots.txt, llms.txt         na raiz, endereços padrão de buscadores e agentes
 ```
 
-`tokens.css`, `theme.js`, `og.png` e `apple-touch-icon.png` ficam na raiz de propósito: as aplicações e as redes sociais usam esses endereços.
+`tokens.css` e `theme.js` ficam na raiz de propósito: as aplicações importam ou copiam desses endereços.
 
 As fontes (Fraunces, Inter e JetBrains Mono) vêm do Google Fonts.
 

@@ -31,6 +31,9 @@ Idioma do conteúdo: português do Brasil. Todos os projetos estão em construç
 - Neutralidade: sem recomendação de voto e sem adjetivos.
 - Privacidade: só dados públicos de agentes públicos; nunca CPF, RG ou dados de pessoas comuns.
 - IA a serviço da sociedade: a inteligência artificial explica e facilita o acesso aos dados, nunca avalia nem opina; o que ela gera é identificado, com o modelo usado, e fica separado dos dados oficiais.
+- Formatos abertos: os dados são entregues em formatos que qualquer pessoa ou sistema consegue ler e reutilizar, sem depender de um programa específico.
+- Acessível a todos: contraste, navegação por teclado e uso no celular valem para todas as aplicações do projeto.
+- Histórico preservado: o arquivo original de cada captura é guardado sem alteração, com a data; quando a fonte muda, o que veio antes continua registrado.
 
 ## Para citar ou reutilizar
 
@@ -41,3 +44,4 @@ Idioma do conteúdo: português do Brasil. Todos os projetos estão em construç
 
 - [Tokens de design (CSS)](https://codigopublicobrasil.com.br/tokens.css): cores e fontes como variáveis, com tema claro e escuro.
 - [Organização no GitHub](https://github.com/codigo-publico-brasil): repositórios, issues e discussões.
+- Contato institucional: codigopublicobrasil@gmail.com
