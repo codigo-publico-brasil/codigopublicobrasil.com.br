@@ -9,32 +9,30 @@ A página apresenta a missão, o caminho do dado, os projetos (com o repositóri
 Uma página única, em HTML e CSS, sem build, framework ou dependência:
 
 ```text
-Página
+public/                 tudo o que é publicado (o Cloudflare só envia esta pasta)
   index.html            conteúdo e estrutura da home
   404.html              página de erro
-  assets/style.css      visual: tema claro e escuro automático, mobile primeiro
   tokens.css            cores e fontes como variáveis (as aplicações importam deste endereço)
   theme.js              botões de tema e de compartilhar (único JavaScript; as aplicações copiam)
-
-Identidade
+  sitemap.xml, robots.txt, llms.txt   endereços padrão de buscadores e agentes de IA
+  assets/style.css      visual: tema claro e escuro automático, mobile primeiro
+  assets/img/           imagem de compartilhamento (1200 × 630) e ícone do celular
   identidade/           guia de identidade visual: logo, cores, tipografia e regras
-  identidade/logos/     símbolos em SVG (organização e projetos)
-
-Busca, redes sociais e agentes de IA
-  assets/img/compartilhamento-1200x630.png  imagem de compartilhamento nas redes
-  assets/img/icone-celular.png              ícone para a tela inicial do celular
-  sitemap.xml, robots.txt, llms.txt         na raiz, endereços padrão de buscadores e agentes
+  identidade/logos/     símbolos em SVG e PNG (organização e projetos)
+wrangler.jsonc          aponta o Cloudflare para public/
+README.md, AGENTS.md, CLAUDE.md   documentação do repositório (não publicada)
 ```
 
-`tokens.css` e `theme.js` ficam na raiz de propósito: as aplicações importam ou copiam desses endereços.
+`tokens.css` e `theme.js` ficam na raiz do site, e não em subpasta, de propósito: as aplicações importam ou copiam desses endereços.
 
 As fontes (Fraunces, Inter e JetBrains Mono) vêm do Google Fonts.
 
 ## Como ver localmente
 
-Requisito: Python 3. Na raiz do repositório:
+Requisito: Python 3. Na pasta `public/`:
 
 ```bash
+cd public
 python -m http.server 4173
 ```
 

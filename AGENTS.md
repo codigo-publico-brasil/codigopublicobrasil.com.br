@@ -26,5 +26,5 @@ Pendências e decisões abertas são **issues deste repositório**, não arquivo
 - Ao mudar missão, princípios ou projetos, atualize também o `llms.txt` e o JSON-LD da home, para o resumo não divergir do site.
 - `robots.txt` permite tudo, de propósito, inclusive agentes de IA. Não bloqueie rastreadores sem pedido do usuário.
 - `assets/img/compartilhamento-1200x630.png` e `assets/img/icone-celular.png` são imagens geradas: refaça se o logo ou o lema mudarem.
-- Raiz só para o que tem endereço fixo: páginas, `robots.txt`, `sitemap.xml`, `llms.txt`, `tokens.css` e `theme.js` (os apps dependem desses dois). Imagens ficam em `assets/img/`.
+- Tudo o que é publicado fica em `public/` (é a única pasta que o Cloudflare envia; documentação e `wrangler.jsonc` ficam fora). Dentro dela, `tokens.css` e `theme.js` ficam na raiz do site, porque os apps dependem desses endereços. Imagens ficam em `assets/img/`.
 - Contato institucional: codigopublicobrasil@gmail.com (home, rodapés, JSON-LD e `llms.txt`).
